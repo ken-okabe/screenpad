@@ -21,7 +21,7 @@ const int DEAD_ZONE_THRESHOLD_SQ_MOVE = 10 * 10; // Dead zone for STARTING curso
 const int DEAD_ZONE_THRESHOLD_SQ_DRAG_START = 30 * 30; // Larger dead zone for STARTING a drag
 const int DEAD_ZONE_THRESHOLD_SQ_TAP_ONE = 20 * 20; // Dead zone for qualifying a single-finger TAP
 const long TAP_TIMEOUT_MS_SINGLE = 180;          // Timeout for single-finger tap (LClick)
-const long DOUBLE_TAP_TIMEOUT_MS = 300;         // Max interval between taps for double-tap/drag
+const long DOUBLE_TAP_TIMEOUT_MS = 150;         // Max interval between taps for double-tap/drag
 
 // Two-finger settings
 const int DEAD_ZONE_THRESHOLD_SQ_TAP_TWO = 20 * 20; // Movement threshold for 2-finger tap (RClick)
