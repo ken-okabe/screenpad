@@ -5,5 +5,5 @@ Using the UMPC's built-in touchscreen as a virtual touchpad for an external moni
 ```sh
 gcc screenpad.c -o screenpad -lm
 
-sudo ./screenpad_listener
+sudo ./screenpad
 ```
